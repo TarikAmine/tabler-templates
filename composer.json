@@ -1,20 +1,20 @@
 {
-    "name": "infyomlabs/adminlte-templates",
+    "name": "kirat/tabler-templates",
     "type": "library",
-    "description": "AdminLTE templates for InfyOm Laravel Generator",
+    "description": "Tabler templates for InfyOm Laravel Generator",
     "keywords": [
         "infyom",
         "laravel",
         "generator",
-        "adminlte",
+        "tabler",
         "templates",
         "bootstrap"
     ],
     "license": "MIT",
     "authors": [
         {
-            "name": "Mitul Golakiya",
-            "email": "me@mitul.me"
+            "name": "Tarik AMINE",
+            "email": "tarik.aminos@gmail.com"
         }
     ],
     "require": {
@@ -23,20 +23,14 @@
     },
     "autoload": {
         "psr-4": {
-            "InfyOm\\AdminLTETemplates\\": "src/"
+            "Kirat\\TablerTemplates\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "\\InfyOm\\AdminLTETemplates\\AdminLTETemplatesServiceProvider"
+                "\\Kirat\\TablerTemplates\\TablerTemplatesServiceProvider"
             ]
         }
-    },
-    "funding": [
-        {
-            "type": "opencollective",
-            "url": "https://opencollective.com/infyomlabs"
-        }
-    ]
+    }
 }
